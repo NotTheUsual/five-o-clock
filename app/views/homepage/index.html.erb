@@ -1,3 +1,2 @@
-<p>It may be <%= Time.now.strftime('%R') %> where you are...</p>
-<p>But it's five o'clock in Germany</p>
-<p>Prost!</p>
+<p>It's five o'clock in <%= @country.capitalize.to_s.gsub('_', ' ').gsub(/\s\w/) {|w| w.upcase} %></p>
+<p><%= @greeting %></p>
