@@ -24,6 +24,30 @@ Feature: Homepage
     Then I should see "It's five o'clock in Tahiti"
     And I should see "Manuia!"
 
+  Scenario: 05:05 UK time
+    Given it is 05:05
+    When I visit the homepage
+    Then I should see "It's five o'clock in Tahiti"
+    And I should see "Manuia!"
+
+  Scenario: 06:05 UK time
+    Given it is 06:05
+    When I visit the homepage
+    Then I should see "It's five o'clock in New Zealand"
+    And I should see "Cheers!"
+
+  Scenario: 07:05 UK time
+    Given it is 07:05
+    When I visit the homepage
+    Then I should see "It's five o'clock in New Zealand"
+    And I should see "Cheers!"
+
+  Scenario: 08:05 UK time
+    Given it is 08:05
+    When I visit the homepage
+    Then I should see "It's five o'clock in Australia"
+    And I should see "Cheers!"
+
   Scenario: 16:05 UK time
     Given I am in the UK
     And it is 16:05
