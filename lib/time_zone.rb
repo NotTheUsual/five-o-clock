@@ -1,8 +1,8 @@
 class TimeZone
   ALL = {
-    0 =>  { location: "Los Angeles",
+    0 =>  { location: "the USA",
             greeting: "Cheers!" },
-    1 =>  { location: "Los Angeles",
+    1 =>  { location: "the USA",
             greeting: "Cheers!" },
     2 =>  { location: "Los Angeles",
             greeting: "Cheers!" },
@@ -34,8 +34,20 @@ class TimeZone
             greeting: "Prost!" },
     16 => { location: "England",
             greeting: "Cheers!" },
+    17 => { location: "England",
+            greeting: "Cheers!" },
+    18 => { location: "Greenland",
+            greeting: "Kassutta!" },
+    19 => { location: "Greenland",
+            greeting: "Kassutta!" },
     20 => { location: "Brazil",
-            greeting: "Saúde!" }
+            greeting: "Saúde!" },
+    21 => { location: "Chile",
+            greeting: "Salud!" },
+    22 => { location: "the USA",
+            greeting: "Cheers!" },
+    23 => { location: "Honduras",
+            greeting: "Salud!" }
   }
 
   def self.from_utc(utc)

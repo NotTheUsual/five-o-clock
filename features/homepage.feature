@@ -1,15 +1,21 @@
 Feature: Homepage
 
+  Scenario: 00:05 UK time
+    Given it is 00:05
+    When I visit the homepage
+    Then I should see "It's five o'clock in Honduras"
+    And I should see "Salud!"
+
   Scenario: 01:05 UK time
     Given it is 01:05
     When I visit the homepage
-    Then I should see "It's five o'clock in Los Angeles"
+    Then I should see "It's five o'clock in the USA"
     And I should see "Cheers!"
 
   Scenario: 02:05 UK time
     Given it is 02:05
     When I visit the homepage
-    Then I should see "It's five o'clock in Los Angeles"
+    Then I should see "It's five o'clock in the USA"
     And I should see "Cheers!"
 
   Scenario: 03:05 UK time
@@ -104,9 +110,39 @@ Feature: Homepage
     Then I should see "It's five o'clock in England"
     And I should see "Cheers!"
 
+  Scenario: 18:05 UK time
+    Given it is 18:05
+    When I visit the homepage
+    Then I should see "It's five o'clock in England"
+    And I should see "Cheers!"
+
+  Scenario: 19:05 UK time
+    Given it is 19:05
+    When I visit the homepage
+    Then I should see "It's five o'clock in Greenland"
+    And I should see "Kassutta!"
+
+  Scenario: 20:05 UK time
+    Given it is 20:05
+    When I visit the homepage
+    Then I should see "It's five o'clock in Greenland"
+    And I should see "Kassutta!"
+
   Scenario: 21:05 UK time
-    Given I am in the UK
-    And it is 21:05
+    Given it is 21:05
     When I visit the homepage
     Then I should see "It's five o'clock in Brazil"
     And I should see "Saúde!"
+
+  Scenario: 22:05 UK time
+    Given it is 22:05
+    When I visit the homepage
+    Then I should see "It's five o'clock in Chile"
+    And I should see "Salud!"
+
+  Scenario: 23:05 UK time
+    Given it is 23:05
+    When I visit the homepage
+    Then I should see "It's five o'clock in the USA"
+    And I should see "Cheers!"
+
