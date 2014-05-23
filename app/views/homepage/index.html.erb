@@ -2,6 +2,4 @@
   <p>It's five o'clock in <%= @time_zone[:location] %></p>
   <p><%= @time_zone[:greeting] %></p>
 </section>
-<% if @time_zone[:html] %>
-  <%= @time_zone[:html].html_safe %>
-<% end %>
+<span class="attribution">Photo from <%= link_to 'Flickr', @time_zone[:original] %>

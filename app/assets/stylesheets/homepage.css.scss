@@ -12,16 +12,27 @@ html, body {
   font-size: 100%;
   text-align: center;
   margin: 0;
+
+  background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-img {
+.attribution {
+  color: rgba(250,250,250,0.6);
   position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  min-height: 100%;
-  overflow: hidden;
-  z-index: -1;
+  bottom: 1em;
+  left: 1em;
+
+  a {
+    color: rgba(250,250,250,0.6);
+
+    &:hover {
+      color: rgba(250,250,250,0.9);
+    }
+  }
 }
 
 .message {
