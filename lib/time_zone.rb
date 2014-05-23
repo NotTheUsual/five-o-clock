@@ -38,11 +38,11 @@ class TimeZone
             greeting: "A la sature!" },
     13 => { location: "Russia", # https://www.flickr.com/photos/mapkyca/3250101107 # https://www.flickr.com/photos/pmorgan/2173146623
             greeting: "Budem!",
-            original: 'https://www.flickr.com/photos/technosailor/3893329858'.
+            original: 'https://www.flickr.com/photos/technosailor/3893329858',
             html: '<a href="https://www.flickr.com/photos/technosailor/3893329858" title="My birthday at the Russia House by Aaron Brazell, on Flickr"><img src="https://farm3.staticflickr.com/2429/3893329858_8b4d305691_o.jpg" width="1024" height="683" alt="My birthday at the Russia House"></a>' },
     14 => { location: "Finland",
             greeting: "Kippis!",
-            original: 'https://www.flickr.com/photos/alc990/5659630286'.
+            original: 'https://www.flickr.com/photos/alc990/5659630286',
             html: '<a href="https://www.flickr.com/photos/alc990/5659630286" title="....and kippis by Andreea Chelaru, on Flickr"><img src="https://farm6.staticflickr.com/5268/5659630286_42100e3eac_o.jpg" width="3888" height="2592" alt="....and kippis"></a>' },
     15 => { location: "Germany",
             greeting: "Prost!",
