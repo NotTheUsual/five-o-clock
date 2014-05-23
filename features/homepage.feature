@@ -6,6 +6,18 @@ Feature: Homepage
     Then I should see "It's five o'clock in Los Angeles"
     And I should see "Cheers!"
 
+  Scenario: 02:05 UK time
+    Given it is 02:05
+    When I visit the homepage
+    Then I should see "It's five o'clock in Los Angeles"
+    And I should see "Cheers!"
+
+  Scenario: 03:05 UK time
+    Given it is 03:05
+    When I visit the homepage
+    Then I should see "It's five o'clock in Los Angeles"
+    And I should see "Cheers!"
+
   Scenario: 04:05 UK time
     Given it is 04:05
     When I visit the homepage

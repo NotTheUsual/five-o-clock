@@ -1,2 +1,2 @@
-<p>It's five o'clock in <%= @country.capitalize.to_s.gsub('_', ' ').gsub(/\s\w/) {|w| w.upcase} %></p>
-<p><%= @greeting %></p>
+<p>It's five o'clock in <%= @time_zone[:location] %></p>
+<p><%= @time_zone[:greeting] %></p>
