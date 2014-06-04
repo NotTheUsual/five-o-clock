@@ -29,6 +29,9 @@ gem 'spring',        group: :development
 # Enable Heroku platform features in production
 gem 'rails_12factor', group: :production
 
+# New Relic
+gem 'newrelic_rpm', group: :production
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'cucumber-rails', :require => false
