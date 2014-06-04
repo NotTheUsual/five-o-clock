@@ -1,0 +1,5 @@
+<section class="message">
+  <p>It's five o'clock in <%= @time_zone[:location] %></p>
+  <p><%= @time_zone[:greeting] %></p>
+</section>
+<span class="attribution">Photo from <%= link_to 'Flickr', @time_zone[:original] %>

@@ -28,3 +28,5 @@ module Itsfiveoclocksomewhere
     # config.i18n.default_locale = :de
   end
 end
+
+require_relative '../lib/time_zone.rb'
