@@ -51,7 +51,8 @@ class TimeZone
     12 => { location: "India", # https://www.flickr.com/photos/eopath/3032415906
             greeting: "A la sature!",
             original: "https://flic.kr/p/5Xik8o",
-            html: '<a href="https://www.flickr.com/photos/freakyyash/3251215600" title="Say Cheers to Life!!! by Ashok Prabhakaran, on Flickr"><img src="https://farm4.staticflickr.com/3389/3251215600_a835cc5882_o.jpg" width="2592" height="1944" alt="Say Cheers to Life!!!"></a>' },
+            html: '<a href="https://www.flickr.com/photos/freakyyash/3251215600" title="Say Cheers to Life!!! by Ashok Prabhakaran, on Flickr"><img src="https://farm4.staticflickr.com/3389/3251215600_2a3067a6d9_b.jpg" width="1024" height="768" alt="Say Cheers to Life!!!"></a>',
+            html_large: '<a href="https://www.flickr.com/photos/freakyyash/3251215600" title="Say Cheers to Life!!! by Ashok Prabhakaran, on Flickr"><img src="https://farm4.staticflickr.com/3389/3251215600_a835cc5882_o.jpg" width="2592" height="1944" alt="Say Cheers to Life!!!"></a>' },
     13 => { location: "Russia", # https://www.flickr.com/photos/mapkyca/3250101107 # https://www.flickr.com/photos/pmorgan/2173146623
             greeting: "Budem!",
             original: 'https://www.flickr.com/photos/technosailor/3893329858',
@@ -59,7 +60,8 @@ class TimeZone
     14 => { location: "Finland",
             greeting: "Kippis!",
             original: 'https://www.flickr.com/photos/alc990/5659630286',
-            html: '<a href="https://www.flickr.com/photos/alc990/5659630286" title="....and kippis by Andreea Chelaru, on Flickr"><img src="https://farm6.staticflickr.com/5268/5659630286_42100e3eac_o.jpg" width="3888" height="2592" alt="....and kippis"></a>' },
+            html: '<a href="https://www.flickr.com/photos/alc990/5659630286" title="....and kippis by Andreea Chelaru, on Flickr"><img src="https://farm6.staticflickr.com/5268/5659630286_91ac7d9d08_b.jpg" width="1024" height="683" alt="....and kippis"></a>',
+            html_large: '<a href="https://www.flickr.com/photos/alc990/5659630286" title="....and kippis by Andreea Chelaru, on Flickr"><img src="https://farm6.staticflickr.com/5268/5659630286_42100e3eac_o.jpg" width="3888" height="2592" alt="....and kippis"></a>' },
     15 => { location: "Germany",
             greeting: "Prost!",
             original: 'https://www.flickr.com/photos/eulenfan/10102942056',
