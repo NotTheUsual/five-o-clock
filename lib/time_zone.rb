@@ -48,8 +48,10 @@ class TimeZone
             greeting: "Can chén!",
             original: 'https://www.flickr.com/photos/65793165@N00/9799927426',
             html: '<a href="https://www.flickr.com/photos/65793165@N00/9799927426" title="_9150197 by yuki koga, on Flickr"><img src="https://farm4.staticflickr.com/3778/9799927426_a4a8438a5c_b.jpg" width="1024" height="768" alt="_9150197"></a>' },
-    12 => { location: "India",
-            greeting: "A la sature!" },
+    12 => { location: "India", # https://www.flickr.com/photos/eopath/3032415906
+            greeting: "A la sature!",
+            original: "https://flic.kr/p/5Xik8o",
+            html: '<a href="https://www.flickr.com/photos/freakyyash/3251215600" title="Say Cheers to Life!!! by Ashok Prabhakaran, on Flickr"><img src="https://farm4.staticflickr.com/3389/3251215600_a835cc5882_o.jpg" width="2592" height="1944" alt="Say Cheers to Life!!!"></a>' },
     13 => { location: "Russia", # https://www.flickr.com/photos/mapkyca/3250101107 # https://www.flickr.com/photos/pmorgan/2173146623
             greeting: "Budem!",
             original: 'https://www.flickr.com/photos/technosailor/3893329858',

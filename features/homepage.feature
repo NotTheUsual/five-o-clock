@@ -21,7 +21,7 @@ Feature: Homepage
   Scenario: 03:05 UK time
     Given it is 03:05
     When I visit the homepage
-    Then I should see "It's five o'clock in Los Angeles"
+    Then I should see "It's five o'clock in the USA"
     And I should see "Cheers!"
 
   Scenario: 04:05 UK time
